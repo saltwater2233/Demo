@@ -1,5 +1,3 @@
 # Demo
 
-* ActivityLifeCycle
-
-Activirty的生命周期
+* ActivityLifeCycle:Activirty的生命周期
