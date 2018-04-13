@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Administartor\\Desktop\\Demo\\TinkerDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administartor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6cad1554f1339c38e8560b64139ff5e7\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administartor\\Desktop\\Demo\\TinkerDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Administartor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3e67002fc2cf6b55091606672029e292\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administartor\\Desktop\\Demo\\TinkerDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administartor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6cad1554f1339c38e8560b64139ff5e7\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administartor\\Desktop\\Demo\\TinkerDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Administartor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6cad1554f1339c38e8560b64139ff5e7\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    }
+]

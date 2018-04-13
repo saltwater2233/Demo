@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saltwater.sophixdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.saltwater.sophixdemo.MyApp"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.saltwater.sophixdemo.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 阿里云的热修复使用 -->
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="24844424" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="22d067ae4fb0c0322293c05a58b365bd" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQCLwFwj7JOxmfvC10s8dWGEpBpsGCpHFc7ohbhIMC+6FzkL/XTFv9ACNKKwdaHkoalYcyqGdhrxMXwXYN9cvR3sN1/sFBys4uTURaEdCYFCoLOjf49EkCaDml8dCsneEFGgGetLH3ZmW2ubJA5vtorNnVuUIuJJfc4dO60QTvnZMu6QEFYRTfAy4gMqRcFnVvo5UVioTQn7lyludwXDgzRZdhWhtOaYN7sR3hC/wHKDAaWICwR3DaZ9DZ+L8wp+L77rU8rdiWl1xtJ/rlOajcueFO8O5zUmc+spaK3wxJpAxBJS89ivQKnpq8V7a6qWlkgsHhlLRtBOhGr0cB/l1ldvAgMBAAECggEBAICkyiynki1iucZZuQAmbWZUSZ5HgGN/R7/zl/ebo9OBnRnUbrG6KBhfq4MURbrYtbKeEP9FqPdtvfUnT3VnASx4rOv8d4kOM+bTUcQRA9P5amOPAKr0pv9uEzAAxmKMUxc1xMqaY7tFXICraD6dopgzyiFLG1LbY+i1DlJ84LF2PIbLpOw8WdsIHnPDY3/zyLp4jF805vkI3+8+K8GAUZYclFEhIqqfUmyjrM2m7dbpD3/vgajoZzaLmuOgaKRrNi8J+778YkbklVWY9XQ5EzL3KKasSPJWJqUtJtA/XQIQamXk1jxIibcibk5j06ZkvhWEANsb3EZUTFVEVE9QEUECgYEAw6J3g0kh+Crs17mdETTupVuivVBrwtsq6gXCxh+UwO0MZRWN/osRDEJtDEZnsx3LtpPTIlk/mQbhdi0YLLZCD+1B15AvQdKcyM5c+q/Znm0XjDuYruyBs1hHnpxbVErHFuP71UV38XWJN94n2l1gSA7aMsB7n6XKrwflRwu1t4UCgYEAtt+TaO7vR0SLyiEcjhlkHn0ydvx8u3lvOyGOwe7nnUD3rsq6fsNxLT+2+ki3t/hPmssT7QMLmW7Ci0dzcYBIR3E4XhBQRUs13iDgmAmi7vtgVBE9jVPIw39vSuKXlvREjx0FrT/DD0sbxkUGkB7mVwuAb7HhqoWwYxwrEuMjk2MCgYEAjkv9LCQkrjLixOLAqURcFTC7BYKab0glRcVc7+kGtPF3I4tzFeOnSciDMvt+8BzLEQki+If8J12G3wNb4yHKmXUUgCvjA7iiy7i2jq0b2A03pIuwugNTL9UVevv1vjEJ8M9xXKZD4QCCB33ydPWYU7Fh6qpxASWBcKCIl42f5lUCgYEAk6zqQjOo4HlXFWw1vf59Hi3l4bY1F8ORckPAH5XITfHX0bv+bD1xmKO6JFUynwqTZiIWPjBWXpnV2llhvUdlluO0LCmqWLrKjk0ocT5e5/PxLxIZDZaaKl0vR17CIXGyJ4u9ONGjuCbkD/FPwnRhd+te1VPlMynwbaiilAb+hJcCgYEAh3F2B3Ff0yi6YMOIArIWRgr0dym5XvnxZW3HSaP/fR6F6vmoST4ezJbVPn3WHqVyQ/kKnT6Nsy6QXHZ2PfumHvmK23a+H4r8qXF1Dj6edpAulCnLdYGZdEsjfQbyj6LICLJFYeXlZsgbGNmF2dWvxeaPKbxELGPH7Onbcmi/Xb0=" />
+
+        <service
+            android:name="com.taobao.sophix.aidl.DownloadService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.taobao.hotfix.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
