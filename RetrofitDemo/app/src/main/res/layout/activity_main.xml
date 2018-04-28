@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray"
+    tools:context=".main.MainActivity">
+    <LinearLayout
+        android:id="@+id/ll_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="10dp"
+            android:text="车牌号"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_query"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:maxLength="8"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:background="@null"
+                android:hint="请输入车牌号"/>
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_main_search" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="10dp"
+            android:text="拍摄照片"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/ll_take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/rl_input"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/image_photo"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_main_add" />
+            <ImageView
+                android:id="@+id/img_delete"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_main_delete"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightGray"
+            android:padding="10dp"
+            android:text="问题描述"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_describe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="left|top"
+                android:hint="请填写问题描述"
+                android:inputType="textMultiLine"
+                android:background="@null"
+                android:minLines="6" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_describe"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/ic_main_upload"
+            android:text="上传"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f1f1f1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/keyboard_key"
+        android:keyTextColor="#ff000000"
+        android:keyTextSize="16sp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:shadowRadius="999"
+        android:visibility="gone" />
+
+</RelativeLayout>
