@@ -1,3 +1,3 @@
 # Demo
 
-* ActivityLifeCycle:Activirty的生命周期
+* 个人学习和练习Demo
