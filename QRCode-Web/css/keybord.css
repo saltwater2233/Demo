@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    /*padding:1em;*/
+}
+#inputs{
+    overflow:hidden;
+}
+#inputs .item{
+    height: 3em;
+    line-height: 3em;
+    width:11%;
+    float:left;
+    background:#fff;
+    box-sizing: border-box;
+    border:1px solid #ddd;
+    text-align: center;
+    margin-left:1%;
+}
+#inputs .item.new{
+    color:#ddd;
+    border-style:none;
+    border-width: 1px;
+    background:url("../img/newcar.png") no-repeat center center;
+    background-size:100% 100%;
+}
+#inputs .item.on{
+    border-width: 1px;
+    border-color:#0b97c4;
+    border-style:solid;
+    background:#fff;
+}
+#inputs .dian{
+    float: left;
+    width:0.5em;
+    height:2em;
+    background-size:150%;
+}
+#keybord{
+    background:#ddd;
+    overflow:hidden;
+    /*padding:1em 0;*/
+    position:fixed;
+    width:100%;
+    bottom:0;
+    left:0;
+    height:14em;
+
+}
+#keybord .item{
+    float:left;
+    padding:2px;
+    position: relative;
+    /*width:100%;*/
+    /*background:#fff;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#keybord .kb1 .item{
+    width:11.1%
+}
+#keybord .kb2 .item{
+    width:10%
+}
+#keybord .item[data-attr="close"]{
+    width:14%;
+}
+#keybord .item[data-attr="empty"]{
+    width:14%;
+}
+#keybord .kb1,#keybord .kb2{
+    position:absolute;
+    top:0.4em;left:0;
+    display:none;
+    width:100%;
+    /*background:#fff;*/
+}
+#keybord .kb1.on,#keybord .kb2.on{
+    display:block;
+}
+#keybord .item .keys{
+    text-align: center;
+    background:#fff;
+    line-height: 3em;
+    height: 3em;
+    /*border:1px solid #ddd;*/
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    -webkit-box-shadow:  2px 2px 2px #ddd;
+    -moz-box-shadow:  2px 2px 2px #ddd;
+    box-shadow:  2px 2px 2px #ddd;
+}
+#keybord .item[data-attr="close"] .keys{
+
+    /*padding:0 0.6em;*/
+}
+#keybord .item.no .keys{
+    background:#aaa;
+}

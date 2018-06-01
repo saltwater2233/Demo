@@ -1,0 +1,588 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+img,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+pre,
+form,
+input,
+textarea,
+th,
+td,
+div,
+button,
+input,
+select,
+option {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0;
+}
+input {
+  vertical-align: middle;
+}
+code,
+em,
+strong,
+th {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+button,
+input {
+  background: transparent;
+  outline: 0;
+  border: 1px solid #000;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* 文本排版 */
+.wh-f12 {
+  font-size: 12px;
+}
+.wh-f13 {
+  font-size: 13px;
+}
+.wh-f14 {
+  font-size: 14px;
+}
+.wh-f16 {
+  font-size: 16px;
+}
+.wh-f20 {
+  font-size: 20px;
+}
+.wh-fb {
+  font-weight: bold;
+}
+.wh-fn {
+  font-weight: normal;
+}
+.wh-t2 {
+  text-indent: 2em;
+}
+.wh-lh1 {
+  line-height: 1em;
+}
+.wh-lh2 {
+  line-height: 2em;
+}
+.wh-lh3 {
+  line-height: 3em;
+}
+.wh-lh5 {
+  line-height: 5em;
+}
+.wh-lh150 {
+  line-height: 150%;
+}
+.wh-lh180 {
+  line-height: 180%;
+}
+.wh-lh200 {
+  line-height: 200%;
+}
+.wh-unl {
+  text-decoration: underline;
+}
+.wh-no-onl {
+  text-decoration: none;
+}
+/* 定位 */
+.wh-tl {
+  text-align: left;
+}
+.wh-tc {
+  text-align: center;
+}
+.wh-tr {
+  text-align: right;
+}
+.wh-bc {
+  margin-left: auto;
+  margin-right: auto;
+}
+.wh-fl {
+  float: left;
+  display: inline;
+}
+.wh-fr {
+  float: right;
+  display: inline;
+}
+.wh-cb {
+  clear: both;
+}
+.wh-cl {
+  clear: left;
+}
+.wh-cr {
+  clear: right;
+}
+.wh-overh {
+  overflow: hidden;
+}
+.wh-vm {
+  vertical-align: middle;
+}
+.wh-pr {
+  position: relative;
+}
+.wh-pa {
+  position: absolute;
+}
+.wh-abs-right {
+  position: absolute;
+  right: 0;
+}
+.wh-zoom {
+  zoom: 1;
+}
+.wh-hidden {
+  visibility: hidden;
+}
+.wh-none {
+  display: none;
+}
+/* 长度高度 */
+.wh-w {
+  width: 100%;
+}
+.wh-w50 {
+  width: 50%;
+}
+.wh-w30 {
+  width: 30%;
+}
+.wh-w70 {
+  width: 70%;
+}
+.wh-w3 {
+  width: 33.3%;
+}
+.wh-h {
+  height: 100%;
+}
+/* 边距 */
+.wh-m10 {
+  margin: 10px;
+}
+.wh-m15 {
+  margin: 15px;
+}
+.wh-m30 {
+  margin: 30px;
+}
+.wh-mt5 {
+  margin-top: 5px;
+}
+.wh-mt10 {
+  margin-top: 10px;
+}
+.wh-mt15 {
+  margin-top: 15px;
+}
+.wh-mt20 {
+  margin-top: 20px;
+}
+.wh-mt30 {
+  margin-top: 30px;
+}
+.wh-mt50 {
+  margin-top: 50px;
+}
+.wh-mt10 {
+  margin-top: 10px;
+}
+.wh-mb5 {
+  margin-bottom: 5px;
+}
+.wh-mb10 {
+  margin-bottom: 10px;
+}
+.wh-mb15 {
+  margin-bottom: 15px;
+}
+.wh-mb20 {
+  margin-bottom: 20px;
+}
+.wh-mb30 {
+  margin-bottom: 30px;
+}
+.wh-mb50 {
+  margin-bottom: 50px;
+}
+.wh-mb100 {
+  margin-bottom: 100px;
+}
+.wh-ml5 {
+  margin-left: 5px;
+}
+.wh-ml10 {
+  margin-left: 10px;
+}
+.wh-ml15 {
+  margin-left: 15px;
+}
+.wh-ml20 {
+  margin-left: 20px;
+}
+.wh-ml30 {
+  margin-left: 30px;
+}
+.wh-ml50 {
+  margin-left: 50px;
+}
+.wh-ml100 {
+  margin-left: 100px;
+}
+.wh-mr5 {
+  margin-right: 5px;
+}
+.wh-mr10 {
+  margin-right: 10px;
+}
+.wh-mr15 {
+  margin-right: 15px;
+}
+.wh-mr20 {
+  margin-right: 20px;
+}
+.wh-mr30 {
+  margin-right: 30px;
+}
+.wh-mr50 {
+  margin-right: 50px;
+}
+.wh-mr100 {
+  margin-right: 100px;
+}
+.wh-p10 {
+  padding: 10px;
+}
+.wh-p15 {
+  padding: 15px;
+}
+.wh-p30 {
+  padding: 30px;
+}
+.wh-pt5 {
+  padding-top: 5px;
+}
+.wh-pt10 {
+  padding-top: 10px;
+}
+.wh-pt15 {
+  padding-top: 15px;
+}
+.wh-pt20 {
+  padding-top: 20px;
+}
+.wh-pt30 {
+  padding-top: 30px;
+}
+.wh-pt50 {
+  padding-top: 50px;
+}
+.wh-pt10 {
+  padding-top: 10px;
+}
+.wh-pb5 {
+  padding-bottom: 5px;
+}
+.wh-pb10 {
+  padding-bottom: 10px;
+}
+.wh-pb15 {
+  padding-bottom: 15px;
+}
+.wh-pb20 {
+  padding-bottom: 20px;
+}
+.wh-pb30 {
+  padding-bottom: 30px;
+}
+.wh-pb50 {
+  padding-bottom: 50px;
+}
+.wh-pb100 {
+  padding-bottom: 100px;
+}
+.wh-pl5 {
+  padding-left: 5px;
+}
+.wh-pl10 {
+  padding-left: 10px;
+}
+.wh-pl15 {
+  padding-left: 15px;
+}
+.wh-pl20 {
+  padding-left: 20px;
+}
+.wh-pl30 {
+  padding-left: 30px;
+}
+.wh-pl50 {
+  padding-left: 50px;
+}
+.wh-pl100 {
+  padding-left: 100px;
+}
+.wh-pr5 {
+  padding-right: 5px;
+}
+.wh-pr10 {
+  padding-right: 10px;
+}
+.wh-pr15 {
+  padding-right: 15px;
+}
+.wh-pr20 {
+  padding-right: 20px;
+}
+.wh-pr30 {
+  padding-right: 30px;
+}
+.wh-pr50 {
+  padding-right: 50px;
+}
+.wh-pr100 {
+  padding-right: 100px;
+}
+/* 字体颜色 */
+.wh-col-6 {
+  color: #666;
+}
+.wh-col-87 {
+  color: #878787;
+}
+.wh-col-f {
+  color: #fff;
+}
+/*  */
+.wh-btn {
+  margin: 1em;
+  padding: 1em;
+  line-height: 1;
+  text-align: center;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+  border: none;
+}
+.wh-btn.wh-btn-line {
+  border: 1px solid #979797;
+  background: #fff;
+  color: #979797;
+}
+.wh-btn.wh-btn-block {
+  width: 100%;
+  display: block;
+}
+.wh-btn.wh-btn-black {
+  background: #000;
+  color: #fff;
+}
+.wh-btn.wh-btn-blue {
+  background: #5dbaff;
+  border-color: #5dbaff;
+  color: #fff;
+}
+.wh-btn.wh-btn-green {
+  background: #27C71F;
+  border-color: #27C71F;
+  color: #fff;
+}
+.wh-btn.wh-btn-blue:hover {
+  color: #fff;
+  background: #209cff;
+  border-color: #209cff;
+  text-decoration: none;
+  transition: all .2s;
+}
+.wh-btn.wh-btn-gray {
+  color: #fff;
+  background: #B3B3B3;
+}
+.wh-btn.wh-btn-orange {
+  color: #fff;
+  background: #FF8311;
+}
+.wh-btn.wh-btn-gray:hover {
+  background: #C9C9C9;
+}
+.wh-btn.wh-btn-gray.wh-light {
+  background: #D7D7D7;
+}
+.wh-btn.wh-btn-radiu {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+.boxShadow {
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+}
+.column {
+  padding: 1em 2em;
+  overflow: hidden;
+}
+.column .column-left {
+  float: left;
+}
+.column .column-right {
+  float: right;
+  color: #999999;
+}
+#main {
+  background: #F9F9F9;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1em;
+}
+#main #swiper {
+  height: 100%;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-input {
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  border-radius: 0.4em;
+  overflow: hidden;
+  background: #fff;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-input .title {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1.5em auto;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-input .wh-btn {
+  margin-top: 2em;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-car {
+  overflow: hidden;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  border-radius: 0.4em;
+  background: #fff;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-car .cartitle {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 2em 0;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-car .cartitle .carnum {
+  font-size: 1.4em;
+  line-height: 2em;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-car .cartitle .carmsg {
+  font-size: 0.8em;
+  line-height: 2em;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-car .cardetail {
+  text-align: center;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-car .cardetail > img {
+  width: 40%;
+  margin-top: 4em;
+}
+#main #swiper .swiper-wrapper .swiper-slide.panel-car .bottom {
+  width: 100%;
+  text-align: center;
+  color: #3cc;
+  position: absolute;
+  bottom: 0;
+  line-height: 4em;
+  border-top: 1px solid #eee;
+}
+#main .swiper-pagination {
+  left: 0;
+  width: 100%;
+}
+#main .swiper-pagination .swiper-pagination-bullet {
+  width: 2em;
+  border-radius: 0;
+  height: 0.2em;
+}
+#main .swiper-pagination .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 0.6em;
+}
+#main .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #3CC;
+}
+#main #inputs .item {
+  height: 2.5em;
+  line-height: 2.5em;
+}
+#main .iconsbottom {
+  margin-top: 1em;
+  background: #fff;
+  height: 26%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#main .iconsbottom > div {
+  height: 100%;
+}
+#main .iconsbottom > div .img {
+  height: 70%;
+}
+#main #keybord {
+  height: 12em;
+  z-index: 10;
+}
+#main #keybord .item .keys {
+  height: 2.5em;
+  line-height: 2.5em;
+}
