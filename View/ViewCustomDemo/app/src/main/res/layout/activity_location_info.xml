@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewBase.ViewLocationInfoActivity">
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="测试的View"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="相对父容器的相对位置:top、left、right、bottom"/>
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="top:"/>
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left:"/>
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right:"/>
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bottom:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="View宽高"/>
+    <TextView
+        android:id="@+id/tv_width"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="width:"/>
+
+    <TextView
+        android:id="@+id/tv_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="height:"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="View左上角的坐标"/>
+    <TextView
+        android:id="@+id/tv_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x:"/>
+    <TextView
+        android:id="@+id/tv_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="y:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="View左上角相对于父容器的偏移量，默认值是0"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View在平移的过程中，top和left表示的是原始左上角的位置信息，其值并不会发生改变，此时发生改变的是translationX和translationY"/>
+    <TextView
+        android:id="@+id/tv_translationX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="translationX:"/>
+    <TextView
+        android:id="@+id/tv_translationY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="translationY:"/>
+
+</LinearLayout>
