@@ -15,6 +15,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+/**
+ * Value动画(属性动画)
+ */
 public class AnimatorActivity extends AppCompatActivity {
     private ValueAnimator mValueAnimator;
     private AnimatorSet mAnimatorSet;

@@ -1,3 +1,10 @@
 # Demo
-
-* 个人学习和练习Demo
+## Base
+* ActivityLifeCycle——典型情况和异常情况下Activity的生命周期
+* IntenFilter
+* SharedPreference
+## Advanced
+* IPC——进程间通信
+* Reflection——反射
+## Animation
+* AnimDemo——View动画和属性动画

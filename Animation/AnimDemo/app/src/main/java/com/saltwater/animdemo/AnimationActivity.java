@@ -15,6 +15,9 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * View动画(视图动画)
+ */
 public class AnimationActivity extends AppCompatActivity {
 
     @Override
